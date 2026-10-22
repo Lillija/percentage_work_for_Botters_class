@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping(value = "/", produces = "text/plain;charset=UTF-8")
     public String start() {
-        return "Hello, World!";
+    return "Sveiki! Mani sauc Lillija.";
     }
 
     @GetMapping(value = "/par", produces = "text/plain;charset=UTF-8")
